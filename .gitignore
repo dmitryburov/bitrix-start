@@ -1,0 +1,53 @@
+﻿# запрещаем файлы
+#.DS_Store
+Thumbs.db
+*.zip
+*.gzip
+*.gz
+*.tgz
+*.tar
+*.gz.[0-9]
+*.sql
+*.log
+*.mp3
+*.exe
+*.db
+*.csv
+*.xml
+*.psd
+*.[oa]
+*~
+
+# запрещаем разделы
+/.idea/*
+/bitrix/*
+/upload/*
+
+# разрешаем нужные разделы
+!/local/
+!/bitrix/php_interface
+
+# компоненты
+!/bitrix/components/
+/bitrix/components/*
+!/bitrix/components/burov
+
+# гаджеты
+!/bitrix/gadgets/
+/bitrix/gadgets/*
+!/bitrix/gadgets/burov
+
+# служебные скрипты
+!/bitrix/tools/
+/bitrix/tools/*
+!/bitrix/tools/burov
+
+# модули
+!/bitrix/modules/
+/bitrix/modules/*
+!/bitrix/modules/burov.*
+
+
+# разрешаем нужные расширения/файлы
+!robots.txt
+!.gitignore
