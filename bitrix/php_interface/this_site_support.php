@@ -5,7 +5,7 @@ use \Bitrix\Main\Web\HttpClient;
 
 $arData = '';
 $cacheId = 'burov_b_footer_support';
-$cacheTtl = '14400';
+$cacheTtl = '86400';
 $cache = Cache::createInstance();
 
 if ($cache->initCache($cacheTtl, $cacheId))
