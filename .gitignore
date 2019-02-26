@@ -1,5 +1,5 @@
 ﻿# запрещаем файлы
-#.DS_Store
+.DS_Store
 Thumbs.db
 *.zip
 *.gzip
